@@ -3,7 +3,7 @@ public class HumanMain {
     static int a = 4;
     static int b = 5;
 
-    
+
 
 
     static void greeting()
@@ -11,9 +11,9 @@ public class HumanMain {
         System.out.println("Hi");
     }
 
-    void fun()
+     void fun()
     {
-        greeting();
+        System.out.println("Hello");
     }
     public static void main(String[] args) {
         Human varun = new Human(24,"Varun", 30, false);
@@ -24,7 +24,6 @@ public class HumanMain {
         System.out.println(Human.population);
         System.out.println(Human.population); // population exists in class
 
-        greeting();
 
         //any property to all human?
     }

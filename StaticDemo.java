@@ -15,6 +15,6 @@ public class StaticDemo {
         
         StaticDemo obj1 = new StaticDemo();
 
-        System.out.println(obj1.a + " " + obj1.b);
+        System.out.println(StaticDemo.a + " " + StaticDemo.b);
     }
 }

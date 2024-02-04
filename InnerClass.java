@@ -1,6 +1,6 @@
 public class InnerClass {
     
-    static class Test {
+    static class Test { // not dependent on obkect of innerclass
      String name;
 
      public Test(String name)
@@ -15,7 +15,7 @@ public class InnerClass {
         Test b = new Test("Rahul");
 
         System.out.println(a.name);
-        System.out.println(b.name);
+        System.out.println(b.name); 
     }
 }
 
